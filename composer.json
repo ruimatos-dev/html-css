@@ -1,0 +1,20 @@
+{
+    "name": "ui/teste",
+    "description": "Primeiro composer",
+    "type":"library",
+    "authors": [
+        {
+            "name": "Rui Matos",
+            "email": "rui.microk@gmail.com"
+        }
+    ],
+    "require": {
+    	"php": ">=5.3.3"
+    },
+    "autoload":{
+        "psr-4":{
+            "CodeExperts\\":"src/"
+        }
+    }
+
+}
